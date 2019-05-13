@@ -1,0 +1,13 @@
+﻿{
+  "gridEditors": [
+    {
+      "name": "Link Picker",
+      "alias": "customlinkpicker",
+      "view": "/app_plugins/custom.grideditor.linkpicker/linkpicker.html",
+      "icon": "icon-link"
+    }
+  ],
+  "javascript": [
+    "~/app_plugins/custom.grideditor.linkpicker/linkpicker.controller.js"
+  ]
+}

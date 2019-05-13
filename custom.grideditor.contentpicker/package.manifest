@@ -1,0 +1,13 @@
+﻿{
+  "gridEditors": [
+    {
+      "name": "Content Picker",
+      "alias": "customcontentpicker",
+      "view": "/app_plugins/custom.grideditor.contentpicker/contentpicker.html",
+      "icon": "icon-link"
+    }
+  ],
+  "javascript": [
+    "~/app_plugins/custom.grideditor.contentpicker/contentpicker.controllers.js"
+  ]
+}

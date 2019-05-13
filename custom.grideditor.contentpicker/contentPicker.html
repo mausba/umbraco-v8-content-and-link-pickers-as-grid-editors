@@ -1,0 +1,19 @@
+﻿<div ng-controller="custom.propertyeditors.grid.contentpickereditorcontroller">
+
+    <div class="umb-editor-placeholde" ng-click="setContentId()">
+        <i class="icon icon-settings-alt"></i>
+        <div ng-id="!control.$inserted" class="help-text">Click to insert Page</div>
+
+        <div ng-if="control.value" style="margin-top: 20px;">
+            <p>
+                Node ID: {{id}}
+                <br />
+                Node Name: {{name}}
+                <br />
+                udi: {{udi}}
+            </p>
+            {{control.value}}
+        </div>
+
+    </div>
+</div>

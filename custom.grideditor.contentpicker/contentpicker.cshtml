@@ -1,0 +1,24 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoViewPage<dynamic>
+
+@{
+    if (Model.value == null) { return; }
+    var content = Umbraco.Content(Convert.ToInt32(Model.value.id));
+}
+
+<b>Content</b>
+<br />
+@content.Id
+<br />
+@content.Name
+
+<br />
+<br />
+<b>Content Picker Model</b>
+<br />
+@Model.value.name
+<br />
+@Model.value.id
+<br />
+@Model.value.udi
+<br />
+<br />
